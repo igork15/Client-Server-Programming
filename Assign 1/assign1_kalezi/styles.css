@@ -1,0 +1,259 @@
+
+html {
+	background: url('images/stucco/stucco.png');
+	margin-left: 15.28%;
+	margin-right: 15.28%;
+	font-family: Arial;
+}
+
+a {
+	
+	padding-right: 35px;
+	
+}
+
+
+.userInfo {
+	color: #838383;
+	font-size: 10pt;
+	padding-top: 15px;
+
+}
+.userInfo td {
+	padding-right: 70px;
+}
+
+.infoTitles {
+	color: #444342;
+	font-size: 12pt;
+	padding-top: 10px;
+	border-bottom: 2px solid #e5e5e5;
+}
+.information {
+	width: 600px; 
+	padding-top: 8px; 
+	padding-right: 35px; 
+	float: right;
+	color: #a4a4a4;
+
+}
+
+.productDetails {
+	width: 600px; 
+	padding-top: 8px; 
+	padding-right: 35px; 
+	float: right;
+	border-bottom: 2px solid #e5e5e5; 
+	color: #444342; 
+	font-size: 12pt;
+}
+
+.tableLeft {
+	color: #444342; 
+	font-weight: bold;
+}
+
+.tableRight {
+	padding-left: 43px;
+}
+
+
+
+
+#emailCell {
+	width: 100px;
+}
+
+#contentTwo{
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	font-size: 14pt;
+	color: #444342;
+	margin-top: 10px;
+	height: 830px;
+	border: 2px solid #e5e5e5;
+	background-color: #F8F8F8;
+}
+
+#content{
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	font-size: 14pt;
+	color: #444342;
+	margin-top: 10px;
+	height: 670px;
+	border: 2px solid #e5e5e5;
+	background-color: #F8F8F8;
+
+}
+
+#content #colorChooser {
+	padding-left: 30px;
+}
+
+#content #state {
+	padding-right: 10px;
+}
+
+#content #lebrun{
+	font-size: 8pt;
+}
+
+#content #image #buttonWish {
+	width: 200px; 
+	color: blue; 
+	font-weight: bold; 
+	height: 30px; 
+	margin-left: 80px; 
+	margin-bottom: 6px;
+}
+#content #image #buttonBorder {
+	border: 2px solid #e5e5e5;
+}
+
+#content #image #money {
+	color: red; 
+	font-size: 12pt;
+}
+
+#content #image #buttonCart {
+	width: 200px; 
+	color: blue; 
+	font-weight: bold; 
+	height: 30px; 
+	margin-left: 10px; 
+	margin-bottom: 6px;
+}
+
+#content p {
+	color: #a4a4a4;
+	font-size: 10pt;
+	float: left;
+}
+
+
+
+#name {
+	color: #2F2F2F;
+	font-size: 50pt;
+	
+}
+
+#header, #footer {
+	margin-top: 10px;
+	color: #4E4E4E;
+	background-color: black;				
+	text-align: right;
+	padding-top: 5px;
+	padding-bottom: 8px;
+	height: 20px;
+}
+
+#header a {
+	color: #4E4E4E;
+	padding-right: 30px;
+	text-decoration: none;
+}
+#footer{
+	text-align: center;
+}
+
+#nav {
+	font-weight: 600;
+	border: 2px solid #e5e5e5;
+	padding-top: 10px;
+	padding-left: 10px;
+	height: 30px;
+	background-color: #f4f4f4;
+}
+
+#nav a {
+	color: #a4a4a4;
+	text-decoration: none;
+}
+
+#content #image {
+
+
+}
+
+
+#content div{
+	font-weight: bold;
+	font-size: 10pt;
+
+}
+
+#content img {
+	padding-top: 10px;
+}
+
+#content #similar {
+	font-weight: bold;
+	font-size: 12pt;
+	padding-top: 15px;
+	border-bottom: 2px solid #e5e5e5;
+
+}
+
+#content #thistle, #portrait, #madame, #pearl {
+	display: inline-block;
+	padding-left: 34px;
+	margin-top: 5px;
+	border: 2px solid #e5e5e5;
+	height: 190px;
+	width: 145px;
+	float: left;
+	
+}
+#content #portrait {
+	margin-left: 10px;
+}
+
+#content #portrait a {
+	font-size: 7.5pt;
+}
+
+#content #madame a {
+	font-size: 7.5pt;
+}
+#content #pearl a {
+	font-size: 7.5pt;
+}
+#content #thistle a {
+	font-size: 7.5pt;
+}
+
+
+
+
+#content #madame {
+	margin-left: 10px;
+	
+
+}
+#content #pearl {
+	margin-left: 10px;
+}
+#content #pearl #detail {
+	margin-left: -25px;
+}
+
+#content #madame #detail {
+	margin-left: -25px;
+}
+
+#content #portrait #detail {
+	margin-left: -25px;
+}
+#content #thistle #detail {
+	margin-left: -25px;
+}
+
+
+
+

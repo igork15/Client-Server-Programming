@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+	<form action="http://faculty.washington.edu/ealmasri/assign1.php">
+	<div id="header">
+			<a href="#"> My Account</a>
+			<a href="#"> Wish List</a>
+			<a href="#"> Shopping Cart</a>
+			<a href="#"> Checkout</a>
+		</div>
+		<div id="name">
+			Art Store
+		</div>
+		<div id="nav">
+			<a href="#"> Home</a>
+			<a href="#"> About Us</a>
+			<a href="#"> Art Works</a>
+			<a href="#"> Artists</a>
+		</div>
+
+		<div id="contentTwo">
+			Customer registration
+
+			<div class="infoTitles">1. User Info</div>
+			<div class="userInfo">
+				<table>
+					<tr>
+						<td>
+							First Name<br><input type="text" name="first"/></br>
+						</td>
+
+						<td>
+							Last Name<br><input type="text" name="last"/></br>
+						</td>												
+					</tr>
+
+					<tr>
+
+						<td colspan="2">
+							Email<br><input type="text" size="60" name="email"/></br>
+						</td>							
+					</tr>
+
+					<tr>
+						<td>
+							Password<br><input type="text" name="pass1"/></br>
+						</td>
+
+						<td>
+							Password Repeat<br><input type="text" name="pass2"/></br>
+						</td>												
+					</tr>
+				</table>
+
+				<div class="infoTitles">2. Location</div>
+				<div class="userInfo">
+				<table>
+					<tr>
+
+						<td colspan="3">
+							Address<br><input type="text" size="60" name="address"/></br>
+						</td>							
+					</tr>
+					<tr>
+						<td>
+							City<br><input type="text" name="city"/></br>
+						</td>
+
+						<td id="state">
+							State<br><input type="text" size="4" name="state"/></br>
+						</td>	
+						<td>
+							Zip<br><input type="text" size="10" name="zip"/></br>
+						</td>																		
+					</tr>
+					<tr>
+						<td>
+							Phone<br><input type="text" name="phone"/></br>
+						</td>
+
+						<td colspan="2">
+							Country<br><select name="country"><option>United States</option>
+									           <option>Canada</option>
+									       	   <option>Mexico</option></select></br>
+						</td>												
+					</tr>					
+					<tr>
+
+						<td>
+							Continent<br><input type="radio" name="continent" value="1">Africa</br>
+							<input type="radio" name="continent" value="2">Antarctica
+							<br><input type="radio" name="continent" value="3">Asia</br>
+							<input type="radio" name="continent" value="4">Australia
+							<br><input type="radio" name="continent" value="5">Europe</br>
+							<input type="radio" name="continent" value="6">North America
+							<br><input type="radio" name="continent" value="7">South America</br>							
+						</td>				
+
+					</tr>
+
+				</table>
+				<div class="infoTitles">3. Personal Details</div>
+				<div class="userInfo">
+					<table>
+						<tr>
+							<td>
+								Birthday<br><input type="date" name="birthday"></br>
+							</td>
+							<td id="colorChooser">
+								Favorite Color<br><input type="color" name="favorite"></br>
+							</td>							
+						</tr>
+						<tr>
+							<td colspan="2">
+								Interest In Art<br>Minimal<input type="range" min="0" max="10" name="interest">Love it!</br>
+							</td>
+					
+						</tr>						
+
+					</table>
+					<div class="infoTitles">4. All done</div>
+					<div class="userInfo">
+						<input type="checkbox">I agree to the <a href>Terms of the Site</a>
+						<br></br><button type="submit" name="accept" value="on"><img src="images/button_ok.png">Sign me up!</button>
+					</div>
+
+				</div>
+
+				</div>
+
+			</div>
+		</div>
+
+		
+
+
+		<div id="footer">
+			All images are copyright to their owners. This is just a hypothetical site  2014 Copyright Art Store
+			
+		</div>
+	</form>	
+</body>
+</html>
